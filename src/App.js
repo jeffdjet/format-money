@@ -33,7 +33,7 @@ class App extends React.Component {
           <input type="number" id="cypress-money" value={this.state.value} onChange={this.handleChange} />
         </label>
         <p>
-        <label>New format: {this.state.value ? this.formatMoney(this.state.value) : ""}</label></p>
+        New format: <label id="cypress-label-new-format">{this.state.value ? this.formatMoney(this.state.value) : ""}</label></p>
       </form>
     );
   }

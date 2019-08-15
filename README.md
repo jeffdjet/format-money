@@ -12,3 +12,10 @@ Run the app in development mode:
 ## yarn start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser
+
+
+In the project directory, install cypress:
+## npm install cypress
+
+To run cypress UI automation:
+## ./node_modules/.bin/cypress open
